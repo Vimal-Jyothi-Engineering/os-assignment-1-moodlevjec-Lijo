@@ -1,6 +1,7 @@
 #include <stdio.h>
 //This file is updated
 //I have done many changes but they are not updating
+//This update may correct errors
 int main() {
     int n;
     scanf("%d", &n);
