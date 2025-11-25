@@ -28,7 +28,10 @@ int main() {
     for (int i = 0; i < n; i++)
         tat[i] = wt[i] + bt[i];
 
+    // Print header EXACTLY as expected
     printf("Process BT WT TAT\n");
+
+    // Print process data EXACTLY as expected (no extra spaces)
     for (int i = 0; i < n; i++)
         printf("P%d %d %d %d\n", p[i], bt[i], wt[i], tat[i]);
 
