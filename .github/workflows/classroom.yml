@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: SJF Autograding Test
         setup-command: ''
-        command: "./tests/test.sh"
+        command: bash tests/test.sh
         timeout: 10
         max-score: 25
     - name: Autograding Reporter
